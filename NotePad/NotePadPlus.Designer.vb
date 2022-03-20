@@ -59,7 +59,7 @@ Partial Class NotePadPlus
         Me.MenuBar.Location = New System.Drawing.Point(0, 0)
         Me.MenuBar.Name = "MenuBar"
         Me.MenuBar.Padding = New System.Windows.Forms.Padding(8, 3, 0, 3)
-        Me.MenuBar.Size = New System.Drawing.Size(542, 29)
+        Me.MenuBar.Size = New System.Drawing.Size(542, 30)
         Me.MenuBar.TabIndex = 1
         Me.MenuBar.Text = "MenuStrip1"
         '
@@ -68,7 +68,7 @@ Partial Class NotePadPlus
         Me.FileMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewFileMenu, Me.OpenFileMenu, Me.SaveFileMenu, Me.ToolStripMenuItem1, Me.ExitProgramMenu})
         Me.FileMenu.Font = New System.Drawing.Font("微软雅黑", 7.8!)
         Me.FileMenu.Name = "FileMenu"
-        Me.FileMenu.Size = New System.Drawing.Size(49, 23)
+        Me.FileMenu.Size = New System.Drawing.Size(49, 24)
         Me.FileMenu.Text = "文件"
         '
         'NewFileMenu
@@ -115,7 +115,7 @@ Partial Class NotePadPlus
         Me.EditMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UndoOrRedoMenu, Me.CutTextMenu, Me.CopyTextMenu, Me.PasteTextMenu, Me.ToolStripMenuItem2, Me.全选ToolStripMenuItem})
         Me.EditMenu.Font = New System.Drawing.Font("微软雅黑", 7.8!)
         Me.EditMenu.Name = "EditMenu"
-        Me.EditMenu.Size = New System.Drawing.Size(49, 23)
+        Me.EditMenu.Size = New System.Drawing.Size(49, 24)
         Me.EditMenu.Text = "编辑"
         '
         'UndoOrRedoMenu
@@ -155,7 +155,7 @@ Partial Class NotePadPlus
         Me.SettingMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PreferencesMenu, Me.关于ToolStripMenuItem})
         Me.SettingMenu.Font = New System.Drawing.Font("微软雅黑", 7.8!)
         Me.SettingMenu.Name = "SettingMenu"
-        Me.SettingMenu.Size = New System.Drawing.Size(49, 23)
+        Me.SettingMenu.Size = New System.Drawing.Size(49, 24)
         Me.SettingMenu.Text = "设置"
         '
         'PreferencesMenu
@@ -195,10 +195,10 @@ Partial Class NotePadPlus
         Me.NotePanel.AutoScroll = True
         Me.NotePanel.Controls.Add(Me.Note)
         Me.NotePanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.NotePanel.Location = New System.Drawing.Point(0, 29)
+        Me.NotePanel.Location = New System.Drawing.Point(0, 30)
         Me.NotePanel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NotePanel.Name = "NotePanel"
-        Me.NotePanel.Size = New System.Drawing.Size(542, 749)
+        Me.NotePanel.Size = New System.Drawing.Size(542, 748)
         Me.NotePanel.TabIndex = 3
         '
         'Note
@@ -208,7 +208,7 @@ Partial Class NotePadPlus
         Me.Note.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Note.Multiline = True
         Me.Note.Name = "Note"
-        Me.Note.Size = New System.Drawing.Size(542, 749)
+        Me.Note.Size = New System.Drawing.Size(542, 748)
         Me.Note.TabIndex = 1
         '
         'OpenFileDialog

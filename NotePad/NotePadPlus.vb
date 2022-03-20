@@ -83,4 +83,12 @@
     Private Sub NotePadPlus_Load(sender As Object, e As EventArgs) Handles Note.TextChanged
         Text = "*NotePad Plus ++"
     End Sub
+
+    Private Sub 关于ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 关于ToolStripMenuItem.Click
+        About.ShowDialog()
+    End Sub
+
+    Private Sub 全选ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 全选ToolStripMenuItem.Click
+        Note.SelectAll()
+    End Sub
 End Class
